@@ -1,0 +1,19 @@
+body {
+
+    background-image: url(../7eac26d04145-article-181102-google-javascript-body-text.jpg);
+}
+
+h1 {
+    background: black;
+    background-color: snow;  
+    text-align: center;  
+    border: 1px solid white;
+    width: 1000px;
+    border-radius: 5px;
+    margin: auto;
+    font-family: Arial;
+    display: block;
+    padding: 15px 20px;
+
+}
+

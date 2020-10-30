@@ -1,0 +1,103 @@
+body {
+    font-family: Arial;
+    background-color: antiquewhite;
+}
+
+p, h2, h3 { 
+    padding: 10px;
+}
+
+#tituloPrincipal {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    color: black;
+
+}
+
+#titulo {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    text-align: justify;
+    width: auto;
+    height: auto;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    color:black;
+}
+
+
+.deco {
+    display: block;
+    padding: 1px;
+    margin: 0px;
+    border-radius: 10px;
+    border: 1px solid white ;
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+
+.nav {
+    width: 1000px;
+    margin: 30px auto;
+    background: white; 
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: rosybrown;
+    transition: all .3s;
+}
+
+.submenu {
+    position: absolute;
+    background: white;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tutorial</title>
+        <link rel="icon" href="fixed_web_design_icon_152287.png" type="image/png">
+        <link rel="stylesheet" href="styles/estilos.css" type="text/css">
+    </head>
+
+
+    <body>
+
+        <h1 id="titulo">Promise en JavaScript</h1>
+
+        <div>
+            <h2>¿Qué es una Promise en JavaScript?</h2>
+            
+            <p>Una Promise es un objeto que representa la terminación o el fracaso de una operación asíncrona.</p>
+            
+            <p>Simulemos una consulta con <strong>timeout</strong> y <strong>error</strong>:</p>
+            
+            <div id="simulada" class="deco"></div>
+            
+            <p>En el caso anterior si vamos a la consola vemos que el estado es "pendiente" eso quiere decir que venimos planteando bien pero no estamos listos todavía. Pasemos al siguiente paso</p>
+            
+            <div id="simulada2" class="deco"></div>
+            
+            <p>Ahora veamos un ejemplo real. Usaré la API pública de randomuser.me/api que te baja un JSON con usuarios random. Muy buena para practicar.</p>
+            
+            <div id="real" class="deco"></div>
+            
+            <p>Ahora veamos cómo se puede recorrer el array para que nos muestre cada registro. Cambio primero la <var>traerUser</var> por <var>imprimirUsers</var> y le asigno la salida a una función generarHTML en lugar de tirarlos a la consola:</p>
+            
+            <div id="recorrer" class="deco"></div>
+            
+        </div>
+        <script src="js/promises.js"></script>
+    </body>
+</html>
